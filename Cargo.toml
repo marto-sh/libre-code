@@ -5,4 +5,5 @@ edition = "2024"
 license = "AGPL-3.0-or-later"
 
 [dependencies]
+color-eyre = "0.6.5"
 ratatui = "0.30.0"
