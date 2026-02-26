@@ -6,6 +6,10 @@
 ## Competitive Landscape
 - Research competitive landscape for AI coding agents
 
+## Tool Safety Classification
+- Classify tools by risk level: readonly (safe), write+revertible (moderate), write+irreversible (risky)
+- Use classification to drive permission defaults and user confirmation prompts
+
 ## Agent Design
 - Design agents so users can leave their work without feeling guilty — if your agents can't survive without you, they're not agents. Agents should enable genuine free time, not anxiety-driven monitoring. (ref: https://www.linkedin.com/feed/update/urn:li:activity:7430247119317528578)
 - Session-based pricing lets the tool dictate how you work — you hit your limit, you "have" to stop, regardless of your flow or intent
