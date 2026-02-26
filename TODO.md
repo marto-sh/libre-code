@@ -16,5 +16,8 @@
 - Bad incentives from session resets: "the session resets at 2AM, I should wake up to maximize my weekly budget" — the tool's scheduling shouldn't override yours
 - These two points correlate with the guilt-free design above: if the agent can work independently, session limits and reset schedules matter less because you're not the bottleneck
 
+## Multi-Agent Sessions
+- Enable multi-agent collaboration within a single session (e.g., Claude Opus + Devstral agents doing event storming together)
+
 ## Notes
 - Ensure numpad works properly (unlike Mistral's Vibe CLI)
