@@ -19,5 +19,8 @@
 ## Multi-Agent Sessions
 - Enable multi-agent collaboration within a single session (e.g., Claude Opus + Devstral agents doing event storming together)
 
+## Commit Workflow
+- Allow agents to commit without human approval — other harnesses require per-commit confirmation, which blocks semantic commit workflows and contradicts the philosophy that code is agent-owned
+
 ## Notes
 - Ensure numpad works properly (unlike Mistral's Vibe CLI)
