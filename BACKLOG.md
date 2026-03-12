@@ -1,4 +1,6 @@
-# TODO List
+# Backlog
+
+<!-- Remove items from this list once completed. -->
 
 ## Architecture Decision Records (ADR)
 - Research text-to-speech open source alternatives (fast, lightweight, low resource usage, voice quality secondary)
