@@ -7,10 +7,7 @@
 
 ## Strategic Foundation
 
-1. [ ] Literature review — "AI coding agents as products" (landscape, workflows, user pain points, gaps); complements existing architectural research in guidelines repo
-2. [ ] Find competitors — map direct and indirect competitors in the coding agent space
-3. [ ] Analyze competitors — deep-dive on key competitors identified in step 2
-4. [ ] Write domain vision — `DOMAIN_VISION.md` articulating problem, solution, and differentiation
+- Write domain vision — `DOMAIN_VISION.md` articulating problem, solution, and differentiation
 
 ## Tool Safety Classification
 - Classify tools by risk level: readonly (safe), write+revertible (moderate), write+irreversible (risky)
