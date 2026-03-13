@@ -22,6 +22,7 @@
 - Session-based pricing lets the tool dictate how you work — you hit your limit, you "have" to stop, regardless of your flow or intent
 - Bad incentives from session resets: "the session resets at 2AM, I should wake up to maximize my weekly budget" — the tool's scheduling shouldn't override yours
 - These two points correlate with the guilt-free design above: if the agent can work independently, session limits and reset schedules matter less because you're not the bottleneck
+- Vendors who sell tokens have an incentive to make agents consume more tokens — the tool's efficiency goals are misaligned with the vendor's revenue goals. BYOK with API cost passthrough removes this conflict
 
 ## Multi-Agent Sessions
 - Enable multi-agent collaboration within a single session (e.g., Claude Opus + Devstral agents doing event storming together)
