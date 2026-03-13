@@ -15,6 +15,7 @@
 ## Tool Safety Classification
 - Classify tools by risk level: readonly (safe), write+revertible (moderate), write+irreversible (risky)
 - Use classification to drive permission defaults and user confirmation prompts
+- Read-only/safe commands (e.g., file reads, glob, grep) should never require user approval — having to accept them is friction with zero safety benefit
 
 ## Agent Design
 - Design agents so users can leave their work without feeling guilty — if your agents can't survive without you, they're not agents. Agents should enable genuine free time, not anxiety-driven monitoring. (ref: https://www.linkedin.com/feed/update/urn:li:activity:7430247119317528578)
@@ -27,6 +28,10 @@
 
 ## Commit Workflow
 - Allow agents to commit without human approval — other harnesses require per-commit confirmation, which blocks semantic commit workflows and contradicts the philosophy that code is agent-owned
+
+## UX
+- Slash commands (e.g., `/usage`) and other non-generative user actions should execute immediately, not be queued behind the agent's current thinking
+- Sending a message while the agent is thinking should feel natural — current UX in existing tools is poor (message gets queued, no clear feedback)
 
 ## Notes
 - Ensure numpad works properly (unlike Mistral's Vibe CLI)
